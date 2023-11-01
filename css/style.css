@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+/* 共通部分
+------------------------------------- */
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Noto Serif", serif;
+    background-color: #FAF6F5;
+    color: #464646;
+    line-height: 1.7;
+
+}
+
+.container {
+    position: relative;
+    /* padding-bottom: 60px; */
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+/* ヘッダー
+------------------------------------- */
+.header-area {
+    padding: 20px;
+    display: flex;
+    /* position: relative; */
+    justify-content: space-between;
+    background-color: #CDBCAB;
+}
+
+.header-title {
+    font-size: 50px;
+    color: #fff;
+}
+
+.header-nav {
+    list-style: none;
+    display: flex;
+    
+}
+
+.header-nav li {
+    padding: 0 15px;
+    margin-top: 1rem;
+    
+}
+
+.header-nav li a {
+    text-decoration: none;
+    color: #555555;
+}
+
+/* TOP */
+section {
+    height: 500px;
+}
+
+.top-img {
+    position: relative;/
+}
+
+.top-img p {
+    position: absolute;
+    color: #fff;
+    font-size: 6rem;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+
+}
+
+.top-img img{
+    width: 100%;
+    height: 500px;
+}
+
+/* Information */
+
+
+.menu-title {
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+.info {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info p {
+    align-items: left;
+}
+
+.info-content {
+    margin: 20px;
+    padding: 100px 20px;
+    background-color: #FFFFFF61;
+    width: 60%;
+} 
+
+/* About */
+.about {
+    background-color: #ECE0CD;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Staff */
+.staff {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* price / reserve */
+.price {
+    background-color: #ECE0CD;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Instagram */
+.instagram {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Access */
+.access {
+    background-color: #ECE0CD;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Recruit */
+.recruit {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Contact */
+.contact {
+    background-color: #ECE0CD;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* フッター
+------------------------------------- */
+.footer-title {
+    background-color: #ABA4A1;
+    width: 100%;
+    height: 500PX;
+    font-size: 50px;
+    color: #fff;
+}
+
+
+/* メインエリア
+------------------------------------ */
+.wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 2% 4%;
+}
+
+/* .main-area {
+    display: flex;
+    justify-content: space-between;
+
+} */
+
+/* モバイル版
+------------------------------------ */
+@media (max-width: 600px) {
+
+    /* ヘッダー */
+    .header-title {
+        font-size: 1.5rem;
+        padding: 0.75rem;
+    }
+
+}
